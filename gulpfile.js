@@ -18,12 +18,12 @@ gulp.task('browser-sync', function() {
 
 
 gulp.task('cleanCSS', () => {
-    return gulp.src('css/*.css')
+    return gulp.src(['./css/*.css', '!./css/*.min.css'])
       .pipe(cleanCSS())
       .pipe(rename({
           suffix: '.min'
     }))
-      .pipe(gulp.dest('build/css'));
+      .pipe(gulp.dest('./css'));
   });
 
 
