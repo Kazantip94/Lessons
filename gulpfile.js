@@ -12,7 +12,7 @@ const cssFiles = [
 
 function styles(){
     return gulp.src(cssFiles)
-    .pipe(concat('style.css'))
+    .pipe(concat('style.min.css'))
     .pipe(autoprefixer({
         cascade: false
     }))
