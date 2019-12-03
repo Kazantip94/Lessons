@@ -1,44 +1,29 @@
 const gulp = require('gulp');
-const concat = require('gulp-concat');
-const autoprefixer = require('gulp-autoprefixer');
-const cleanCSS = require('gulp-clean-css');
-const del = require('del');
 const browserSync = require('browser-sync').create();
+const cleanCSS = require('gulp-clean-css');
+const rename = require("gulp-rename");
 
-const cssFiles = [
-    './src/css/main.css',
-    './src/css/media.css'
-]
 
-function styles(){
-    return gulp.src(cssFiles)
-    .pipe(concat('style.min.css'))
-    .pipe(autoprefixer({
-        cascade: false
-    }))
-    .pipe(cleanCSS({
-        level: 2
-}))
-    .pipe(gulp.dest('./build/css'))
-    .pipe(browserSync.stream());
 
-}
-
-function clean(){
-    return del(['build/*'])
-}
-
-function watch(){
+// Static server
+gulp.task('browser-sync', function() {
     browserSync.init({
         server: {
             baseDir: "./"
         }
     });
-    gulp.watch('./src/css/**/*.css', styles)
-    gulp.watch("./*.html").on('change', browserSync.reload);
-}
+    gulp.watch('./src/css/**/*.css', cleanCSS),
+    gulp.watch("app/*.html").on('change', browserSync.reload);
+});
 
-gulp.task('styles', styles);
-gulp.task('watch', watch);
-gulp.task('build', gulp.series(clean, gulp.parallel(styles)));
-gulp.task('dev', gulp.series('build', 'watch'));
+
+gulp.task('cleanCSS', () => {
+    return gulp.src('css/*.css')
+      .pipe(cleanCSS())
+      .pipe(rename({
+          suffix: '.min'
+    }))
+      .pipe(gulp.dest('build/css'));
+  });
+
+

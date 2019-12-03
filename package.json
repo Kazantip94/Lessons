@@ -1,5 +1,5 @@
 {
-  "name": "lessons",
+  "name": "repair-design",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kazantip94/Lessons.git"
+    "url": "git+https://github.com/Kazantip94/repair-design.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kazantip94/Lessons/issues"
+    "url": "https://github.com/Kazantip94/repair-design/issues"
   },
-  "homepage": "https://github.com/Kazantip94/Lessons#readme",
+  "homepage": "https://github.com/Kazantip94/repair-design#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",

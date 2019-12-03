@@ -1,0 +1,301 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+}
+body[Attributes Style] {
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+Style Attribute {
+    font-size: 10px;
+    font-family: Roboto, Arial, sans-serif;
+}
+html:not(.style-scope) {
+    --paper-input-container-shared-input-style_-_color: var(--paper-input-container-input-color, var(--primary-text-color));
+    --paper-input-container-shared-input-style_-_vertical-align: var(--paper-input-container-input-align, bottom);
+    --paper-input-container-shared-input-style_-_font-family: var(--paper-font-subhead_-_font-family);
+    --paper-input-container-shared-input-style_-_-webkit-font-smoothing: var(--paper-font-subhead_-_-webkit-font-smoothing);
+}
+html:not(.style-scope) {
+    --paper-font-common-base_-_font-family: 'Roboto', 'Noto', sans-serif;
+    --paper-font-common-base_-_-webkit-font-smoothing: antialiased;
+    --paper-font-title_-_font-family: var(--paper-font-common-base_-_font-family);
+    --paper-font-title_-_-webkit-font-smoothing: var(--paper-font-common-base_-_-webkit-font-smoothing);
+    --paper-font-subhead_-_font-family: var(--paper-font-common-base_-_font-family);
+    --paper-font-subhead_-_-webkit-font-smoothing: var(--paper-font-common-base_-_-webkit-font-smoothing);
+    --paper-font-body1_-_font-family: var(--paper-font-common-base_-_font-family);
+    --paper-font-body1_-_-webkit-font-smoothing: var(--paper-font-common-base_-_-webkit-font-smoothing);
+    --paper-font-caption_-_font-family: var(--paper-font-common-base_-_font-family);
+    --paper-font-caption_-_-webkit-font-smoothing: var(--paper-font-common-base_-_-webkit-font-smoothing);
+}
+html:not(.style-scope) {
+    --primary-text-color: #212121;
+    --primary-background-color: #ffffff;
+    --disabled-text-color: #9b9b9b;
+    --divider-color: #dbdbdb;
+    --error-color: #dd2c00;
+    --primary-color: #3f51b5;
+}
+html:not(.style-scope) {
+    --google-red-500: #db4437;
+    --google-blue-500: #4285f4;
+    --google-green-500: #0f9d58;
+    --google-yellow-500: #f4b400;
+    --paper-yellow-a100: #ffff8d;
+    --dark-divider-opacity: 0.12;
+}
+html:not(.style-scope) {
+    --yt-live-chat-background-color: white;
+    --yt-live-chat-action-panel-background-color: hsla(0, 0%, 93.3%, 0.4);
+    --yt-live-chat-action-panel-background-color-transparent: hsla(0, 0%, 97%, .8);
+    --yt-live-chat-primary-text-color: #111111;
+    --yt-live-chat-secondary-text-color: hsla(0, 0%, 6.7%, 0.6);
+    --yt-live-chat-tertiary-text-color: hsla(0, 0%, 6.7%, 0.4);
+    --yt-live-chat-text-input-field-inactive-underline-color: #b8b8b8;
+    --yt-live-chat-text-input-field-placeholder-color: hsla(0, 0%, 6.7%, 0.6);
+    --yt-live-chat-disabled-icon-button-color: hsla(0, 0%, 6.7%, 0.2);
+    --yt-live-chat-picker-button-color: hsla(0, 0%, 6.7%, 0.4);
+    --yt-live-chat-error-message-color: hsl(10, 51%, 49%);
+    --yt-live-chat-moderator-color: hsl(225, 84%, 66%);
+    --yt-live-chat-owner-color: hsl(40, 76%, 55%);
+    --yt-live-chat-author-chip-owner-text-color: rgba(0,0,0,0.87);
+    --yt-live-chat-author-chip-verified-background-color: #CCCCCC;
+    --yt-live-chat-author-chip-verified-text-color: #606060;
+    --yt-live-chat-sponsor-color: #107516;
+    --yt-live-chat-moderation-mode-hover-background-color: hsla(0, 0%, 6.7%, 0.2);
+    --yt-live-chat-additional-inline-action-button-color: white;
+    --yt-live-chat-additional-inline-action-button-background-color: hsla(0, 0%, 26%, 0.8);
+    --yt-live-chat-additional-inline-action-button-background-color-hover: hsla(0, 0%, 26%, 1.0);
+    --yt-formatted-string-emoji-size: 24px;
+    --yt-live-chat-emoji-size: 24px;
+    --yt-live-chat-text-input-field-suggestion-background-color: white;
+    --yt-live-chat-text-input-field-suggestion-background-color-hover: #eee;
+    --yt-live-chat-text-input-field-suggestion-text-color: #666;
+    --yt-live-chat-text-input-field-suggestion-text-color-hover: #333;
+    --yt-emoji-picker-category-background-color: var(--yt-live-chat-action-panel-background-color-transparent);
+    --yt-emoji-picker-category-color: var(--yt-live-chat-secondary-text-color);
+    --yt-emoji-picker-category-button-color: var(--yt-live-chat-picker-button-color);
+    --yt-emoji-picker-search-background-color: hsla(0, 0%, 100%, 0.6);
+    --yt-emoji-picker-search-color: hsla(0, 0%, 6.7%, 0.8);
+    --yt-emoji-picker-search-placeholder-color: hsla(0, 0%, 6.7%, 0.6);
+}
+html:not(.style-scope) {
+    --yt-button-margin: 0;
+    --yt-button-padding: 10px 16px;
+    --yt-button-padding-minus-border: 9px 15px;
+    --yt-button-padding-minus-focus-outline: 8px 14px;
+    --yt-button-padding-minus-focus-outline-width: 2px;
+    --yt-button-border-radius: 2px;
+}
+html:not(.style-scope) {
+    --ytd-z-index-notification: 2024;
+    --ytd-z-index-miniplayer: 2025;
+    --ytd-thumbnail-height: 118px;
+    --ytd-default-promo-panel-renderer-height: 600px;
+    --ytd-channel-warm-welcome-renderer-button-layer_-_border-top: 1px solid var(--yt-spec-10-percent-layer);
+}
+html:not(.style-scope) {
+    --ytd-searchbox-border-color: hsla(0, 0%, 53.3%, 0.2);
+    --ytd-searchbox-legacy-border-color: #ccc;
+    --ytd-searchbox-legacy-border-shadow-color: #eee;
+    --ytd-searchbox-legacy-button-color: #f8f8f8;
+    --ytd-searchbox-legacy-button-border-color: #d3d3d3;
+    --ytd-searchbox-legacy-button-focus-color: #e9e9e9;
+    --ytd-searchbox-legacy-button-hover-color: #f0f0f0;
+    --ytd-searchbox-legacy-button-hover-border-color: #c6c6c6;
+    --ytd-searchbox-legacy-button-icon-color: #333;
+    --ytd-moderation-panel-background: hsla(0, 0%, 93.3%, 0.6);
+    --ytd-moderation-panel-hover: hsla(0, 0%, 93.3%, 0.8);
+    --ytd-moderation-panel-comment-text: #111111;
+    --ytd-moderation-panel-comment-metadata-text: hsla(0, 0%, 6.7%, 0.6);
+    --ytd-moderation-icon-color: hsla(0, 0%, 6.7%, 0.6);
+    --ytd-moderation-icon-hover-color: #111111;
+    --ytd-comment-text-color: #111111;
+    --ytd-comment-metadata-text-color: var(--yt-spec-text-secondary);
+    --ytd-watch-card-secondary-text-color: #888888;
+    --ytd-watch-card-album-header-background: white;
+    --ytd-backstage-metadata-text-color: #888888;
+    --ytd-backstage-video-link-background-color: hsla(0, 0%, 93.3%, 0.4);
+    --ytd-backstage-image-alert-color: hsla(0, 0%, 6.7%, 0.6);
+    --ytd-backstage-cancel-background-color: white;
+    --ytd-backstage-cancel-color: hsla(0, 0%, 6.7%, 0.4);
+    --ytd-backstage-attachment-background-color: white;
+    --ytd-backstage-creationbox-inactive-color: rgba(0, 0, 0, 0.26);
+    --ytd-backstage-creationbox-text-color: rgba(0, 0, 0, 0.54);
+    --ytd-backstage-creationbox-input-text-color: rgba(0, 0, 0, 0.87);
+    --ytd-backstage-attachment-icon-hover-color: rgba(0, 0, 0, 0.74);
+    --ytd-badge-disabled-color: hsla(0, 0%, 53.3%, 0.4);
+    --ytd-collection-badge-color: hsla(0, 0%, 6.7%, 0.8);
+    --ytd-owner-badge-color: hsla(0, 0%, 6.7%, 0.4);
+    --ytd-simple-badge-color: hsla(0, 0%, 6.7%, 0.6);
+    --ytd-shopping-product-info: hsla(0, 0%, 6.7%, 0.8);
+    --ytd-transcript-cue-hover-background-color: #eeeeee;
+    --ytd-transcript-toolbar-background-color: #eeeeee;
+    --ytd-transcript-toolbar-text: #111111;
+    --ytd-vat-notice-text: hsla(0, 0%, 6.7%, 0.6);
+    --ytd-offer-background-color: hsla(0, 0%, 93.3%, 0.4);
+    --ytd-video-game-watch-card-logo-color: #111111;
+    --ytd-watch-split-pane-sidebar-background-color: #fafafa;
+}
+html:not(.style-scope) {
+    --paper-dialog-background-color: var(--yt-spec-brand-background-solid);
+    --paper-listbox-background-color: var(--yt-spec-brand-background-solid);
+    --paper-listbox-color: var(--yt-spec-text-primary);
+    --paper-spinner-layer-1-color: var(--yt-spec-icon-inactive);
+    --paper-spinner-layer-2-color: var(--yt-spec-icon-inactive);
+    --paper-spinner-layer-3-color: var(--yt-spec-icon-inactive);
+    --paper-spinner-layer-4-color: var(--yt-spec-icon-inactive);
+    --paper-spinner-color: var(--yt-spec-icon-inactive);
+    --paper-input-container-focus-color: var(--yt-spec-themed-blue);
+    --paper-input-container-input-color: var(--yt-spec-text-primary);
+    --paper-input-container-invalid-color: var(--yt-spec-brand-link-text);
+    --paper-checkbox-unchecked-color: var(--yt-spec-icon-inactive);
+    --paper-checkbox-unchecked-ink-color: var(--yt-spec-icon-inactive);
+    --paper-checkbox-checked-color: var(--yt-spec-call-to-action);
+    --paper-checkbox-checked-ink-color: var(--yt-spec-call-to-action);
+    --paper-checkbox-label-color: var(--yt-spec-text-primary);
+    --paper-checkbox-label-spacing: 16px;
+    --paper-checkbox-size: 20px;
+    --paper-checkbox-checkmark-color: var(--yt-spec-text-primary-inverse);
+    --paper-radio-button-unchecked-color: var(--yt-spec-icon-inactive);
+    --paper-radio-button-unchecked-ink-color: var(--yt-spec-icon-inactive);
+    --paper-radio-button-checked-color: var(--yt-spec-call-to-action);
+    --paper-radio-button-checked-ink-color: var(--yt-spec-call-to-action);
+    --paper-radio-button-label-spacing: 16px;
+    --paper-radio-button-label-color: var(--yt-spec-text-primary);
+    --paper-radio-button-size: 20px;
+    --paper-item_-_white-space: nowrap;
+    --paper-item_-_font-size: initial;
+    --paper-item_-_font-weight: initial;
+    --paper-item_-_line-height: initial;
+    --paper-toggle-button-unchecked-bar-color: var(--yt-spec-icon-disabled);
+    --paper-toggle-button-unchecked-button-color: var(--yt-spec-icon-inactive);
+    --paper-toggle-button-checked-bar-color: var(--yt-spec-icon-disabled);
+    --paper-toggle-button-checked-button-color: var(--yt-spec-call-to-action);
+    --paper-toggle-button-checked-ink-color: var(--yt-spec-call-to-action);
+    --paper-toggle-button-unchecked-ink-color: var(--yt-spec-touch-response);
+    --yt-icon-width: 40px;
+    --yt-icon-height: 40px;
+    --yt-search-correction-corrected_-_color: var(--yt-spec-text-primary);
+    --yt-search-correction-original_-_color: var(--yt-spec-text-primary);
+    --yt-endpoint_-_color: var(--yt-endpoint-color, var(--yt-spec-text-primary));
+    --yt-endpoint-hover_-_color: var(--yt-endpoint-hover-color, var(--yt-spec-text-primary));
+    --yt-endpoint-hover_-_text-decoration: var(--yt-endpoint-text-decoration, none);
+    --yt-notification-button-bubble_-_color: var(--yt-swatch-important-text, white);
+    --yt-notification-button-bubble_-_background-color: var(--yt-spec-brand-button-background);
+}
+html:not(.style-scope) {
+    --ytd-rich-grid-items-per-row: 3;
+    --ytd-rich-grid-posts-per-row: 3;
+    --ytd-rich-grid-movies-per-row: 6;
+}
+html:not(.style-scope) {
+    --yt-swatch-icon-color: hsla(0, 0%, 6.7%, 0.4);
+    --yt-swatch-primary: white;
+    --yt-swatch-primary-darker: rgb(230, 230, 230);
+    --yt-swatch-text: hsla(0, 0%, 6.7%, 0.4);
+    --yt-swatch-input-text: #111111;
+    --yt-swatch-textbox-bg: rgb(255, 255, 255);
+}
+html:not(.style-scope) {
+    --yt-spec-brand-background-solid: #fff;
+    --yt-spec-brand-background-primary: rgba(255, 255, 255, 0.98);
+    --yt-spec-brand-background-secondary: rgba(255, 255, 255, 0.95);
+    --yt-spec-general-background-a: #f9f9f9;
+    --yt-spec-general-background-b: #f1f1f1;
+    --yt-spec-general-background-c: #e9e9e9;
+    --yt-spec-error-background: #1f1f1f;
+    --yt-spec-text-primary: #0d0d0d;
+    --yt-spec-text-primary-inverse: #fff;
+    --yt-spec-text-secondary: #606060;
+    --yt-spec-text-disabled: #909090;
+    --yt-spec-call-to-action: #065fd4;
+    --yt-spec-icon-active-other: #606060;
+    --yt-spec-icon-inactive: #909090;
+    --yt-spec-icon-disabled: #ccc;
+    --yt-spec-badge-chip-background: rgba(0, 0, 0, 0.05);
+    --yt-spec-verified-badge-background: rgba(0, 0, 0, 0.15);
+    --yt-spec-suggested-action: #f2f8ff;
+    --yt-spec-button-chip-background-hover: rgba(0, 0, 0, 0.1);
+    --yt-spec-touch-response: #000;
+    --yt-spec-paper-tab-ink: rgba(0, 0, 0, 0.3);
+    --yt-spec-filled-button-text: #fff;
+    --yt-spec-call-to-action-inverse: #3ea6ff;
+    --yt-spec-brand-icon-active: #f00;
+    --yt-spec-brand-icon-inactive: #606060;
+    --yt-spec-brand-button-background: #c00;
+    --yt-spec-brand-link-text: #c00;
+    --yt-spec-filled-button-focus-outline: rgba(0, 0, 0, 0.6);
+    --yt-spec-call-to-action-button-focus-outline: rgba(6, 95, 212, 0.3);
+    --yt-spec-brand-text-button-focus-outline: rgba(204, 0, 0, 0.3);
+    --yt-spec-inactive-text-button-focus-outline: #ccc;
+    --yt-spec-brand-subscribe-button-background: var(--yt-spec-brand-button-background);
+    --yt-spec-wordmark-text: #282828;
+    --yt-spec-10-percent-layer: rgba(0, 0, 0, 0.1);
+    --yt-spec-selected-nav-text: #c00;
+    --yt-spec-themed-blue: #065fd4;
+    --yt-spec-themed-green: #107516;
+    --yt-spec-themed-overlay-background: rgba(255, 255, 255, 0.7);
+}
+html:not(.style-scope) {
+    --yt-std-body-300: rgba(0, 0, 0, 0.54);
+    --yt-std-surface-200: #fafafa;
+    --yt-std-surface-300: whitesmoke;
+    --yt-std-surface-400: #ededed;
+    --yt-primary-color: #111111;
+    --yt-primary-text-color: #111111;
+    --yt-hovered-text-color: hsla(0, 0%, 6.7%, 0.8);
+    --yt-secondary-text-color: hsla(0, 0%, 6.7%, 0.8);
+    --yt-tertiary-text-color: hsla(0, 0%, 6.7%, 0.6);
+    --yt-placeholder-text-color: hsla(0, 0%, 6.7%, 0.6);
+    --yt-border-color: #eeeeee;
+    --yt-commentbox-border-inactive: #eeeeee;
+    --yt-commentbox-border-active: hsla(0, 0%, 6.7%, 0.6);
+    --yt-primary-disabled-button-text-color: white;
+    --yt-paper-button-ink-color: #888888;
+    --yt-icon-color: hsla(0, 0%, 6.7%, 0.4);
+    --yt-icon-hover-color: hsla(0, 0%, 6.7%, 0.8);
+    --yt-icon-disabled-color: hsla(0, 0%, 6.7%, 0.6);
+    --yt-icon-active-color: #111111;
+    --yt-expand-color: hsla(0, 0%, 6.7%, 0.6);
+    --yt-placeholder-text: hsla(0, 0%, 6.7%, 0.6);
+    --yt-playlist-background-header: #eeeeee;
+    --yt-playlist-background-item: hsla(0, 0%, 93.3%, 0.6);
+    --yt-playlist-title-text: #111111;
+    --yt-playlist-message-text: hsla(0, 0%, 6.7%, 0.6);
+    --yt-playlist-message-text-hover: #111111;
+    --yt-button-active-color: #111111;
+    --yt-copyright-text: hsla(0, 0%, 6.7%, 0.6);
+    --yt-thumbnail-placeholder-color: #e3e3e3;
+    --yt-featured-channel-title-text-color: rgba(0, 0, 0, 0.54);
+    --yt-formatted-string-deemphasize-color: #888888;
+    --yt-video-secondary-info-description-background: hsla(0, 0%, 93.3%, 0.6);
+    --yt-searchbox-text-color: var(--yt-primary-text-color);
+    --yt-simple-menu-header-background: #eeeeee;
+    --yt-item-section-header-color: hsla(0, 0%, 6.7%, 0.6);
+    --yt-menu-hover-backgound-color: #eeeeee;
+    --yt-menu-focus-background-color: hsla(0, 0%, 6.7%, 0.2);
+    --yt-chat-bubble-other-border-color: #ccc;
+    --yt-chat-bubble-other-background-color: #f9f9f9;
+    --yt-chat-bubble-self-border-color: #ccc;
+    --yt-chat-bubble-self-background-color: #e9e9e9;
+    --yt-app-background: white;
+    --yt-main-app-background: #fafafa;
+    --yt-main-app-background-tmp: white;
+    --yt-guide-background: whitesmoke;
+    --yt-dialog-background: white;
+    --yt-searchbox-background: white;
+    --yt-channel-header-background: #fafafa;
+    --yt-sidebar-background: #fafafa;
+    --yt-transcript-background: white;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
