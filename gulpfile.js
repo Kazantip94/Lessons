@@ -9,12 +9,13 @@ const sass = require('gulp-sass');
 // Static server
 function bs() {
     serveSass()
+    minCSS()
     browserSync.init({
         server: {
             baseDir: "./"
         }
     });
-    watch('./css/**/*.css', cleanCSS),
+    watch('./css/**/*.css');
     watch("./*.html").on('change', browserSync.reload);
     watch("./sass/**/*.sass", serveSass);
     watch("./sass/**/*.scss", serveSass);
@@ -29,14 +30,14 @@ function serveSass(){
 };
 
 
-// gulp.task('cleanCSS', () => {
-//     return gulp.src(["./css/*.css", "!./css/*.min.css"])
-//       .pipe(cleanCSS())
-//       .pipe(rename({
-//           suffix: '.min'
-//     }))
-//       .pipe(gulp.dest("./css"));
-//   });
+function minCSS() {
+    return src(["./css/*.css", "!./css/*.min.css"])
+      .pipe(cleanCSS())
+      .pipe(rename({
+          suffix: '.min'
+    }))
+      .pipe(dest("./css"));
+ };
 
   exports.serve = bs;
 
