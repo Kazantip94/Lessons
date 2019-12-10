@@ -434,8 +434,7 @@ body {
     margin: 0;
     margin-bottom: 3.5rem; }
   .hero__button {
-    margin-right: 14px;
-    max-width: 205px; }
+    margin-right: 14px; }
   .hero__instagram {
     position: absolute;
     left: 0;
@@ -545,4 +544,4 @@ body {
 
 @media screen and (max-width: 350px) {
   .hero__text {
-    max-width: 22.5rem; } }
+    min-width: 22.5rem; } }
