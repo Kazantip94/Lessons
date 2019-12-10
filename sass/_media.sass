@@ -39,17 +39,26 @@
         &__text
             font-size: 1.5rem
             margin-bottom: 3rem
+            max-width: 26.7rem
         &__button
             display: block
+            max-width: 26rem
             width: 100%
             margin-bottom: 2.2rem
+        &__title
+            max-width: 27rem
 @media screen and ( max-height: 550px )
     .hero
         &__scroll-down
             display: none
 @media screen and (max-width: 350px)
     .hero__text 
-        min-width: 22.5rem
+        max-width: 22.5rem
+@media screen and ( max-width: 380px )
+    .hero__button
+        max-width: none
+    
+
 
 
 
