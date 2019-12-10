@@ -434,7 +434,8 @@ body {
     margin: 0;
     margin-bottom: 3.5rem; }
   .hero__button {
-    margin-right: 14px; }
+    margin-right: 14px;
+    max-width: 205px; }
   .hero__instagram {
     position: absolute;
     left: 0;
@@ -513,6 +514,8 @@ body {
     margin-left: 0; } }
 
 @media screen and (max-width: 570px) {
+  .container {
+    width: 90%; }
   .contacts__phone {
     margin-right: 0;
     color: #fff;
@@ -533,13 +536,13 @@ body {
     margin-bottom: 3rem; }
   .hero__button {
     display: block;
-    min-width: 26rem;
+    width: 100%;
     margin-bottom: 2.2rem; } }
 
 @media screen and (max-height: 550px) {
   .hero__scroll-down {
     display: none; } }
 
-@media screen and (max-width: 380px) {
-  margin-top: 38.3px;
-  margin: 0; }
+@media screen and (max-width: 350px) {
+  .hero__text {
+    max-width: 22.5rem; } }
