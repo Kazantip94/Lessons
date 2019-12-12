@@ -357,27 +357,30 @@ body {
 img {
   max-width: 100%; }
 
-.section-title {
-  text-align: center; }
-  .section-title__heading {
-    font-family: 'Yeseva One', cursive;
-    text-transform: uppercase; }
-  .section-title__image {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .section-title__image::before, .section-title__image::after {
-      content: '';
-      width: 32px;
-      height: 2px;
-      background-color: #E3B873;
-      margin: 0 10px; }
-  .section-title__description {
-    margin: auto;
-    margin-top: 1.64rem;
-    font-size: 1.07rem;
-    line-height: 135.84%;
-    max-width: 21.86rem; }
+.section {
+  padding: 60px 0; }
+  .section-title {
+    text-align: center; }
+    .section-title__heading {
+      font-family: 'Yeseva One', cursive;
+      text-transform: uppercase;
+      font-size: 1.43rem; }
+    .section-title__image {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .section-title__image::before, .section-title__image::after {
+        content: '';
+        width: 32px;
+        height: 2px;
+        background-color: #E3B873;
+        margin: 0 10px; }
+    .section-title__description {
+      margin: auto;
+      margin-top: 1.4rem;
+      font-size: 1.43rem;
+      line-height: 135.84%;
+      max-width: 21.86rem; }
 
 .header {
   position: fixed;
@@ -551,21 +554,15 @@ img {
 
 .design {
   background-color: #131313; }
-
-.section-title {
-  color: #fff;
-  margin-top: 10.92rem;
-  margin-bottom: 2.78rem; }
-  .section-title__heading {
-    font-size: 1.43rem; }
-  .section-title__description {
-    font-size: 1.43rem; }
-  .section-title__card {
+  .design__card {
     margin-bottom: 5.7rem; }
-
-.card__image {
-  display: block;
-  width: 100%; }
+  .design__section-title {
+    color: #fff;
+    margin-top: 10.92rem;
+    margin-bottom: 3rem; }
+  .design__image {
+    display: block;
+    width: 100%; }
 
 .card__text {
   position: relative;
@@ -677,7 +674,7 @@ img {
   .section-title {
     color: #131313; }
     .section-title__description {
-      max-width: 52rem; }
+      max-width: 53rem; }
   .row {
     flex-direction: row;
     justify-content: space-between;
