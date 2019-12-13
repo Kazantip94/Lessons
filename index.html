@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.14.2/d3.min.js"></script>
   </head>
   <body>
       <header class="header">
@@ -299,9 +299,9 @@
         </section>
         <!-- /.section design -->
       </main>
-      <div class="modal">
+      <div class="modal" id="modal">
         <div class="modal__dialog">
-          <button class="modal__close"></button>
+          <button class="modal__close" id="close"></button>
           <h3 class="modal__title">Оставьте заявку и наш менеджер свяжется с вами </h3>
           <form action="#" class="form modal__form">
             <label for="user-name" class="label form__label label--light">Имя</label>
