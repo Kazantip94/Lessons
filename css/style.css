@@ -647,8 +647,8 @@ img {
   justify-content: center;
   align-items: center; }
   .modal--visible {
-    opacity: 1;
-    visibility: visible; }
+    visibility: visible;
+    opacity: 1; }
   .modal__dialog {
     position: relative;
     max-width: 36.36rem;
