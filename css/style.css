@@ -325,6 +325,20 @@ template {
   font-size: 0.93rem; }
   .button:hover {
     cursor: pointer; }
+  .button__pageup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 20px; }
+    .button__pageup > i {
+      width: 20px;
+      height: 20px; }
   .button--primary {
     background-color: #E3B873;
     color: #fff;
