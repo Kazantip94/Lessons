@@ -16,7 +16,15 @@
             display: none
         &__content
             margin-left: 0
+    .section
+        &-title
+            &__text
+                padding-right: 0.5rem
 @media screen and ( max-width: 760px )
+    .section
+        &-title
+            &__description
+                max-width: 21.86rem
     .row
         flex-direction: column
         align-items: center
@@ -26,6 +34,57 @@
     .card
         &__text
             margin-left: 0
+    .design
+        background-color: $dark
+        &__section-title
+            color: $light
+        &__card
+            margin-bottom: 5.7rem
+    .section
+        &-title
+            &__word
+                justify-content: center
+                &::after
+                    display: none
+            &--left
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            &__heading
+                &--primary
+                    font-size: 1.85rem
+                    line-height: 2.64rem
+                    margin-bottom: 0.9rem
+            &__text
+                text-align: center
+                font-size: 1.17rem
+                line-height: 1.87rem
+                max-width: 24rem
+                margin-bottom: 2.9rem
+    .swiper
+        &-slide
+            &__heading
+                font-size: 1.2rem
+                margin-bottom: 1.09rem
+            &__text
+                font-size: 1.21rem
+                margin-bottom: 1rem
+            &r
+                &-image
+                    max-width: 340px
+                    max-height: 201px
+                    margin-top: 0
+                    margin-bottom: 1.6rem
+    .mobile-order-top
+        order: -1
+    .col-50
+        width: 100%
+        // flex-basis: 100%
+        &__text
+            font-size: 0.6rem
+            flex-basis: 50%
+            margin-bottom: 1.5rem
 @media screen and ( max-width: 570px )
     .container
         width: 90%
@@ -67,19 +126,8 @@
 @media screen and (max-width: 350px)
     .hero__text 
         max-width: 22.5rem
-@media screen and ( min-width: 760px )
-    .design
-        background-color: $light
-    .section-title
-        color: $dark 
-        &__description
-            max-width: 53rem
-    .row
-        flex-direction: row
-        justify-content: space-between
-        color: $dark
-    .card
-        flex-basis: 32%
+
+    
         
 
 
