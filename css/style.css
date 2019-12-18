@@ -646,8 +646,8 @@ img {
   background: url("../img/arrow-next.svg") no-repeat center; }
 
 .swiper-slide img {
-  width: 679px;
-  height: 482px; }
+  max-width: 679px;
+  max-height: 482px; }
 
 .swiper-container-horizontal > .swiper-pagination-bullets {
   width: auto;
