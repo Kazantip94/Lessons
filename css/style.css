@@ -762,44 +762,34 @@ img {
     display: none; }
   .hero__content {
     margin-left: 0; }
-  .mobile-order-top {
-    padding-left: 4rem; } }
-
-@media screen and (max-width: 760px) {
-  .section-title__description {
-    max-width: 21.86rem; }
-  .row {
-    flex-direction: column;
-    align-items: center; }
-  .types__card {
-    margin-bottom: 5rem; }
-  .card__text {
-    margin-left: 0; }
   .design {
     background-color: #131313; }
     .design__section-title {
       color: #fff; }
     .design__card {
       margin-bottom: 5.7rem; }
-  .section-title {
+  .row {
+    flex-direction: column;
+    align-items: center; }
+  .section-title__word {
+    justify-content: center; }
+    .section-title__word::after {
+      display: none; }
+  .section-title--left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .section-title__word {
-      justify-content: center; }
-      .section-title__word::after {
-        display: none; }
-    .section-title__heading--primary {
-      font-size: 1.85rem;
-      line-height: 2.64rem;
-      margin-bottom: 0.9rem; }
-    .section-title__text {
-      text-align: center;
-      font-size: 1.17rem;
-      line-height: 1.87rem;
-      max-width: 24rem;
-      margin-bottom: 2.9rem; }
+  .section-title__heading--primary {
+    font-size: 1.85rem;
+    line-height: 2.64rem;
+    margin-bottom: 0.9rem; }
+  .section-title__text {
+    text-align: center;
+    font-size: 1.17rem;
+    line-height: 1.87rem;
+    max-width: 24rem;
+    margin-bottom: 2.9rem; }
   .swiper-slide__heading {
     font-size: 1.2rem;
     margin-bottom: 1.09rem;
@@ -813,8 +803,15 @@ img {
     margin-top: 0;
     margin-bottom: 1.6rem; }
   .mobile-order-top {
-    padding-left: 0rem;
-    order: -1; }
+    order: -1; } }
+
+@media screen and (max-width: 760px) {
+  .section-title__description {
+    max-width: 21.86rem; }
+  .types__card {
+    margin-bottom: 5rem; }
+  .card__text {
+    margin-left: 0; }
   .col-50 {
     width: 100%; }
     .col-50__text {
