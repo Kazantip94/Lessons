@@ -793,10 +793,12 @@ img {
   .swiper-slide__heading {
     font-size: 1.2rem;
     margin-bottom: 1.09rem;
-    padding-right: 1rem; }
+    padding-right: 1rem;
+    text-align: center; }
   .swiper-slide__text {
     font-size: 1.21rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    text-align: center; }
   .swiper-slider-image {
     max-width: 340px;
     max-height: 201px;
