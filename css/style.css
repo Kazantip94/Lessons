@@ -793,17 +793,12 @@ img {
   .swiper-slide__heading {
     font-size: 1.2rem;
     margin-bottom: 1.09rem;
-    padding-right: 1rem;
-    text-align: center; }
+    padding-right: 1rem; }
   .swiper-slide__text {
     font-size: 1.21rem;
-    margin-bottom: 1rem;
-    text-align: center; }
+    margin-bottom: 1rem; }
   .swiper-slider-image {
-    max-width: 340px;
-    max-height: 201px;
-    margin-top: 0;
-    margin-bottom: 1.6rem; }
+    margin-top: 0; }
   .mobile-order-top {
     order: -1; } }
 
