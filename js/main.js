@@ -73,6 +73,9 @@ $(document).ready(function() {
 
     next.css('left', prev.width() + 35 + bullets.width() + 35)
     bullets.css('left', prev.width() + 35)
+
+
+    new WOW().init();
     
 });
 
