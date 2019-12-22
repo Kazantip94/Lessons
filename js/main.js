@@ -80,6 +80,7 @@ $(document).ready(function() {
     // Валидация формы
     $('.modal__form').validate({
         errorClass: "invalid",
+        errorElement: "div",
         rules: {
             // строчное правило
             userName: {
@@ -93,7 +94,8 @@ $(document).ready(function() {
                 required: true,
                 email: true
             }
-        }, //Сообщения
+        }, 
+        //Сообщения
         messages: {
             userName: {
                 required: "Имя обязателньо",
@@ -110,6 +112,7 @@ $(document).ready(function() {
 
     $('.control__form').validate({
         errorClass: "invalid",
+        errorElement: "div",
         rules: {
             // строчное правило
             userName: {
@@ -118,7 +121,8 @@ $(document).ready(function() {
                 maxlength: 15
             },
             userPhone: "required",
-        }, //Сообщения
+        }, 
+        //Сообщения
         messages: {
             userName: {
                 required: "Имя обязателньо",
@@ -131,6 +135,7 @@ $(document).ready(function() {
 
     $('.footer__form').validate({
         errorClass: "invalid",
+        errorElement: "div",
         rules: {
             // строчное правило
             userName: {
@@ -144,7 +149,8 @@ $(document).ready(function() {
                 required: true,
                 email: true
             }
-        }, //Сообщения
+        }, 
+        //Сообщения
         messages: {
             userName: {
                 required: "Имя обязателньо",
