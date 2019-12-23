@@ -775,7 +775,7 @@ img {
   padding: 1.214rem 2.6rem; }
 
 .design {
-  margin-bottom: 30rem; }
+  padding-bottom: 30rem; }
   .design__section-title {
     margin-bottom: 2.78rem; }
 
@@ -987,6 +987,7 @@ img {
   .footer {
     background: #131313; }
     .footer__wrap {
+      background: #131313;
       padding: 2.5rem 0; }
     .footer__title {
       font-size: 1.68rem;
