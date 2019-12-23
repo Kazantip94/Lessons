@@ -43,6 +43,8 @@
   border-bottom: 1px solid rgba(54, 54, 54, 0.3)
   font-size: 1.285rem
   padding: 0.5rem 0
+  &-group
+    position: relative
   &--light
     &::placeholder
       color: $light
@@ -70,7 +72,9 @@
       justify-content: center
 div
   &.invalid
+    position: absolute
     color: tomato
+    top: 55px
 input
   &.invalid
     border-bottom: 1px solid tomato
