@@ -1009,8 +1009,7 @@ img {
         justify-content: flex-start;
         font-size: 1.34rem; }
     .footer__button {
-      font-size: 1.35rem;
-      padding: 1.3rem 10.75rem; } }
+      font-size: 1.35rem; } }
 
 @media screen and (max-width: 760px) {
   .section-title__description {
