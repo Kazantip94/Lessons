@@ -792,7 +792,8 @@ img {
     margin: auto;
     margin-top: -20rem;
     margin-bottom: 3.714rem;
-    padding: 2.5rem; }
+    padding: 2.5rem;
+    padding-bottom: 2.5rem; }
   .footer__title {
     text-transform: uppercase;
     font-family: 'Yeseva One', cursive;
@@ -825,6 +826,25 @@ img {
     margin: auto;
     padding: 1.2rem 4.3rem;
     font-size: 1.1rem; }
+  .footer__heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3.71rem;
+    margin-bottom: 2.72rem; }
+  .footer__subtitle {
+    max-width: 38.07rem;
+    font-size: 1.42rem;
+    line-height: 28px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    font-family: 'Yeseva One', cursive;
+    font-weight: normal;
+    margin-bottom: 1.7rem; }
+  .footer__email {
+    margin-right: 1rem; }
   .footer__menu {
     background-color: #131313;
     padding: 4.285rem 0; }
