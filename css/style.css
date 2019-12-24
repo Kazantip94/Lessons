@@ -848,9 +848,11 @@ img {
   .footer__menu {
     background-color: #131313;
     padding: 4.285rem 0; }
-  .footer__map {
-    margin-bottom: 4rem;
-    min-height: 465px; }
+
+.google-map {
+  width: 100%;
+  height: 465px;
+  border: 0; }
 
 .modal {
   opacity: 0;
@@ -1036,7 +1038,9 @@ img {
         justify-content: flex-start;
         font-size: 1.34rem; }
     .footer__button {
-      font-size: 1.35rem; } }
+      font-size: 1.35rem; }
+    .footer__heading {
+      order: 5; } }
 
 @media screen and (max-width: 760px) {
   .section-title__description {
