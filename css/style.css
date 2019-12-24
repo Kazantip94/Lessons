@@ -1040,7 +1040,10 @@ img {
     .footer__button {
       font-size: 1.35rem; }
     .footer__heading {
-      order: 5; } }
+      order: 4; }
+    .footer__subtitle {
+      max-width: 26.07rem;
+      line-height: 26px; } }
 
 @media screen and (max-width: 760px) {
   .section-title__description {
