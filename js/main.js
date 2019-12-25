@@ -52,6 +52,15 @@ $(document).ready(function() {
 		if ($(e.target).closest('.modal__dialog').length == 0) {
 			$(this).toggleClass('modal--visible');		
         }
+
+    $('input[type="checkbox"]').click(function(){
+        if( $(this).is(':checked') ) {
+            $('.policy__label').html('<span>Я соглашаюсь с обработкой данных</span>');
+        } else {
+            $('.policy__label').html('<span style="color: red;">Галочка <strong>не</strong> стоит</span>')
+        }
+    });
+
     });
 
     var mySwiper = new Swiper ('.swiper-container', {
@@ -162,6 +171,7 @@ $(document).ready(function() {
                 required: "Обязательно укажите email",
                 email: "Введите в формате: name@domain.com"
             }
+            
         }
     });
 

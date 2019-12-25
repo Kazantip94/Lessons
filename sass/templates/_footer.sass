@@ -62,32 +62,29 @@
         margin-bottom: 1.7rem
     &__phone
         text-decoration: none
-    &__social
+    &__social 
         display: flex
         margin-bottom: 2.8rem  
-    &__instagram
+    &__icon
         display: flex
-        justify-content: center
-        margin-left: 1rem
-        &::after
-            content: ''
-            background: url('../img/instagram.svg') no-repeat center
-            background-color: $primary
-            width: 28px
-            height: 28px
-            border: 2px solid $primary
-            border-radius: 50%  
-    &__email 
-        display: flex
-        justify-content: center  
-        &::after
-            content: ''
-            background: url('../img/email.svg') no-repeat center
-            background-color: $primary
-            width: 28px
-            height: 28px
-            border: 2px solid $primary
-            border-radius: 50%   
+        background-color: $primary
+        width: 2rem
+        height: 2rem
+        border: 2px solid $primary
+        border-radius: 50% 
+        &_email
+            &::after    
+                content: ''  
+                width: 100%
+                height: 100%         
+                background: url('../img/email.svg') no-repeat center
+        &_instagram
+            margin-left: 1rem
+            &::after 
+                content: ''
+                width: 100%
+                height: 100%
+                background: url('../img/instagram.svg') no-repeat center  
     &__menu
         background-color: $dark
         padding: 4.285rem 0
