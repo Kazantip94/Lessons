@@ -845,10 +845,34 @@ img {
     font-family: 'Yeseva One', cursive;
     font-weight: normal;
     margin-bottom: 1.7rem; }
+  .footer__phone {
+    text-decoration: none; }
   .footer__social {
+    display: flex;
     margin-bottom: 2.8rem; }
+  .footer__instagram {
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem; }
+    .footer__instagram::after {
+      content: '';
+      background: url("../img/instagram.svg") no-repeat center;
+      background-color: #E3B873;
+      width: 28px;
+      height: 28px;
+      border: 2px solid #E3B873;
+      border-radius: 50%; }
   .footer__email {
-    margin-right: 1rem; }
+    display: flex;
+    justify-content: center; }
+    .footer__email::after {
+      content: '';
+      background: url("../img/email.svg") no-repeat center;
+      background-color: #E3B873;
+      width: 28px;
+      height: 28px;
+      border: 2px solid #E3B873;
+      border-radius: 50%; }
   .footer__menu {
     background-color: #131313;
     padding: 4.285rem 0; }
@@ -1020,7 +1044,8 @@ img {
     max-width: 5.5rem;
     max-height: 5.5rem; }
   .footer {
-    background: #131313; }
+    background: #131313;
+    padding-bottom: 2.7rem; }
     .footer__wrap {
       background: #131313;
       padding: 2.5rem 0; }
@@ -1051,15 +1076,19 @@ img {
       max-width: 26.07rem;
       line-height: 26px;
       font-size: 1.5rem; }
-    .footer__email {
+    .footer__email::after {
       height: 3.5rem;
       width: 3.5rem; }
     .footer__instagram {
-      height: 3.5rem;
-      width: 3.5rem; }
+      margin-left: 1.5rem; }
+      .footer__instagram::after {
+        height: 3.5rem;
+        width: 3.5rem; }
     .footer__map {
       order: -1;
       margin-bottom: 3rem; }
+    .footer__menu {
+      display: none; }
   .google-map {
     height: 21.3rem; } }
 

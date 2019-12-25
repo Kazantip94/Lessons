@@ -60,10 +60,34 @@
         font-family: 'Yeseva One', cursive
         font-weight: normal
         margin-bottom: 1.7rem
+    &__phone
+        text-decoration: none
     &__social
-        margin-bottom: 2.8rem
-    &__email
-        margin-right: 1rem
+        display: flex
+        margin-bottom: 2.8rem  
+    &__instagram
+        display: flex
+        justify-content: center
+        margin-left: 1rem
+        &::after
+            content: ''
+            background: url('../img/instagram.svg') no-repeat center
+            background-color: $primary
+            width: 28px
+            height: 28px
+            border: 2px solid $primary
+            border-radius: 50%  
+    &__email 
+        display: flex
+        justify-content: center  
+        &::after
+            content: ''
+            background: url('../img/email.svg') no-repeat center
+            background-color: $primary
+            width: 28px
+            height: 28px
+            border: 2px solid $primary
+            border-radius: 50%   
     &__menu
         background-color: $dark
         padding: 4.285rem 0

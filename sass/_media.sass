@@ -111,6 +111,7 @@
             max-height: 5.5rem 
     .footer
         background: $dark
+        padding-bottom: 2.7rem
         &__wrap
             background: $dark
             padding: 2.5rem 0
@@ -142,14 +143,19 @@
             line-height: 26px
             font-size: 1.5rem
         &__email
-            height: 3.5rem
-            width: 3.5rem
+            &::after
+                height: 3.5rem
+                width: 3.5rem
         &__instagram
-            height: 3.5rem
-            width: 3.5rem
+            margin-left: 1.5rem
+            &::after
+                height: 3.5rem
+                width: 3.5rem
         &__map
             order: -1
             margin-bottom: 3rem
+        &__menu
+            display: none
     .google-map
         height: 21.3rem
 @media screen and ( max-width: 760px )
