@@ -793,7 +793,7 @@ img {
     margin-top: -20rem;
     margin-bottom: 3.714rem;
     padding: 2.5rem;
-    padding-bottom: 2.5rem; }
+    padding-bottom: 2.2rem; }
   .footer__title {
     text-transform: uppercase;
     font-family: 'Yeseva One', cursive;
@@ -830,8 +830,10 @@ img {
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 63.07rem;
+    margin: auto;
     margin-top: 3.71rem;
-    margin-bottom: 2.72rem; }
+    margin-bottom: 3.5rem; }
   .footer__subtitle {
     max-width: 38.07rem;
     font-size: 1.42rem;
@@ -843,11 +845,15 @@ img {
     font-family: 'Yeseva One', cursive;
     font-weight: normal;
     margin-bottom: 1.7rem; }
+  .footer__social {
+    margin-bottom: 2.8rem; }
   .footer__email {
     margin-right: 1rem; }
   .footer__menu {
     background-color: #131313;
     padding: 4.285rem 0; }
+  .footer__map {
+    width: 100%; }
 
 .google-map {
   width: 100%;
@@ -1040,10 +1046,22 @@ img {
     .footer__button {
       font-size: 1.35rem; }
     .footer__heading {
-      order: 4; }
+      margin-top: -2.29rem; }
     .footer__subtitle {
       max-width: 26.07rem;
-      line-height: 26px; } }
+      line-height: 26px;
+      font-size: 1.5rem; }
+    .footer__email {
+      height: 3.5rem;
+      width: 3.5rem; }
+    .footer__instagram {
+      height: 3.5rem;
+      width: 3.5rem; }
+    .footer__map {
+      order: -1;
+      margin-bottom: 3rem; }
+  .google-map {
+    height: 21.3rem; } }
 
 @media screen and (max-width: 760px) {
   .section-title__description {
