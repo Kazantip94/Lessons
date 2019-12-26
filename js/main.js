@@ -116,6 +116,18 @@ $(document).ready(function() {
                 required: "Обязательно укажите email",
                 email: "Введите в формате: name@domain.com"
             }
+        },
+        submitHandler: function(form) {
+            $.ajax({
+                type: "POST",
+                url: "send.php",
+                data: $(form).serialize(),
+                success: function (response) {
+                    alert('Форма отправлена, мы свяжемся с вами через 10 мин');
+                    $(form)[0].reset();
+                    modal.removeClass('modal--visible');
+                }
+            });
         }
     });
 
@@ -180,38 +192,38 @@ $(document).ready(function() {
     $('[type="tel"]').mask('+7(000) 00-00-000', {placeholder: "+7 (___) __-__-___"});
 
     // подключение карты
-    ymaps.ready(function () {
-        var myMap = new ymaps.Map('map', {
-                center: [55.751574, 37.573856],
-                zoom: 9
-            }, {
-                searchControlProvider: 'yandex#search'
-            }),
+    // ymaps.ready(function () {
+    //     var myMap = new ymaps.Map('map', {
+    //             center: [55.751574, 37.573856],
+    //             zoom: 9
+    //         }, {
+    //             searchControlProvider: 'yandex#search'
+    //         }),
     
-            // Создаём макет содержимого.
-            MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-                '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
-            ),
+    //         // Создаём макет содержимого.
+    //         MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+    //             '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+    //         ),
     
-            myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-                hintContent: 'Наш офис',
-                balloonContent: 'Вход со двора'
-            }, {
-                // Опции.
-                // Необходимо указать данный тип макета.
-                iconLayout: 'default#image',
-                // Своё изображение иконки метки.
-                iconImageHref: 'img/location.jpg',
-                // Размеры метки.
-                iconImageSize: [32, 32],
-                // Смещение левого верхнего угла иконки относительно
-                // её "ножки" (точки привязки).
-                iconImageOffset: [-5, -38]
-            });
+    //         myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+    //             hintContent: 'Наш офис',
+    //             balloonContent: 'Вход со двора'
+    //         }, {
+    //             // Опции.
+    //             // Необходимо указать данный тип макета.
+    //             iconLayout: 'default#image',
+    //             // Своё изображение иконки метки.
+    //             iconImageHref: 'img/location.jpg',
+    //             // Размеры метки.
+    //             iconImageSize: [32, 32],
+    //             // Смещение левого верхнего угла иконки относительно
+    //             // её "ножки" (точки привязки).
+    //             iconImageOffset: [-5, -38]
+    //         });
     
-        myMap.geoObjects
-            .add(myPlacemark)
-    });
+    //     myMap.geoObjects
+    //         .add(myPlacemark)
+    // });
     
 });
 
