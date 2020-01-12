@@ -1,0 +1,1 @@
+$(function(){let n=$("#pageup");$(window).scroll(function(){$(this).scrollTop()>50?(n.fadeIn(),$(".button__pageup").css("display","flex")):n.fadeOut()}),n.on("click",function(){return $("body, html").animate({scrollTop:0},500),!1})});
